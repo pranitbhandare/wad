@@ -1,0 +1,9 @@
+1)sudo apt-get update
+2)sudo apt-get install ca-certificates curl
+3)sudo install -m 0755 -d /etc/apt/keyringssudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+4)sudo chmod a+r /etc/apt/keyrings/docker.asc
+5)echo \
+6)sudo docker run hello-world
+7)docker -v
+8)sudo docker images
+9)sudo systemctl status docker

@@ -1,0 +1,29 @@
+
+.container3 {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 150px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-floating {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container3 {
+      width: 50%;
+    }
+  }
+  
